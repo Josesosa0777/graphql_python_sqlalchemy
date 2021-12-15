@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dependency-injector = {extras = ["yaml"], version = "*"}
+flask = "*"
+click = "*"
+ariadne = "*"
+sqlalchemy = "*"
+microservice = {editable = true, path = "."}
+alembic = "*"
+bcrypt = "*"
+
+[dev-packages]
+icecream = "*"
+pipenv-setup = "*"
+pylint = "*"
+pydocstyle = "*"
+pycodestyle = "*"
+mypy = "*"
+pre-commit = "*"
+black = "==19.10b0"
+chardet = "*"
+
+[requires]
+python_version = "3.9"
