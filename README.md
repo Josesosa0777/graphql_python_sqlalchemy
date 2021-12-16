@@ -23,6 +23,11 @@ Los siguientes pasos son necesarios para trabajar con el blueprint.
 * Para ejecutar un único comando dentro del ambiente virtual se usa `pipenv run comando`.
 * Para activar el ambiente virtual ejecutar `pipenv shell`.
 * Luego de activado el ambiente virtual los paquetes instalados estarán disponibles.
+* En instance/etc creo el archivo config.yml con la información requerida
+* Ejecutar: 
+* `microservice web run`
+* `export MS_CONFIG=$(pwd)/instance/etc/config.yml`
+* Nota: Si uso alembic, también debo ejecutar: *`alembic upgrade head` para crear las tablas.
 
 ### MUY IMPORTANTE
 
