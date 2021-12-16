@@ -27,6 +27,7 @@ Los siguientes pasos son necesarios para trabajar con el blueprint.
 * Ejecutar: 
 * `microservice web run`
 * `export MS_CONFIG=$(pwd)/instance/etc/config.yml`
+* crear en la carpeta instance una nueva carpeta llamada: *db*
 * Nota: Si uso alembic, también debo ejecutar: *`alembic upgrade head` para crear las tablas.
 
 ### MUY IMPORTANTE
