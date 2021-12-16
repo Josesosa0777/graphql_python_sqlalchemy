@@ -27,8 +27,11 @@ Los siguientes pasos son necesarios para trabajar con el blueprint.
 * Ejecutar: 
 * `microservice web run`
 * `export MS_CONFIG=$(pwd)/instance/etc/config.yml`
-* Nota 1: crear en la carpeta instance una nueva carpeta llamada: *db*
-* Nota 2: Si uso alembic, también debo ejecutar: *`alembic upgrade head` para crear las tablas.
+* `pwd`
+* Notas:
+* Luego de ejecutar pwd, mostrará una ruta de dirección, esa hay que usarla para actualizar los path en los archivos del instance/etc/config.yml, y el de alembic.ini
+* Crear en la carpeta instance una nueva carpeta llamada: *db*
+* Si uso alembic, también debo ejecutar: *`alembic upgrade head` para crear las tablas.
 * El código no permite que los emails se repitan al crear nuevo usuario. 
 
 ### MUY IMPORTANTE
